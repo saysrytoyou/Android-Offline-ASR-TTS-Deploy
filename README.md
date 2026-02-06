@@ -1,11 +1,3 @@
-没问题，我们直接用最直白、最技术流的名字，方便别人（和你自己）一眼就能看出这个项目是干什么的。
-
-推荐的英文仓库名/项目名：
-**Android-Offline-ASR-TTS-Deploy**
-(含义：安卓离线 ASR 与 TTS 部署)
-
-以下是为你定制的 `README.md` 文件，内容完全基于我们刚才调试成功的最终版本（包含双语、标点模型、MeloTTS 修复等细节）。
-
 ---
 
 # 🤖 Android-Offline-ASR-TTS-Deploy
