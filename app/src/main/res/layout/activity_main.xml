@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="这里显示识别结果..."
+        android:textSize="18sp"
+        android:background="#F0F0F0"
+        android:padding="15dp"
+        android:gravity="top"
+        android:scrollbars="vertical"/>
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要合成语音的文字 (支持中英数字)"
+        android:minHeight="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnTTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTS: 播放输入框文字"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnASR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASR: 按住说话 (支持中英)"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

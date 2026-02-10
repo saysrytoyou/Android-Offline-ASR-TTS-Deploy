@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# 忽略所有模型文件
+*.onnx
+*.int8.onnx
+*.aar
+
+# 忽略 TTS 规则文件
+*.fst
+*.dict.utf8
+
+# Android 构建缓存
+/build
+/app/build
+.gradle
+.idea
