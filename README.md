@@ -70,7 +70,7 @@ dependencies {
 
 ```
 
-需在 `AndroidManifest.xml` 中声明麦克风权限 `<uses-permission android:name="android.permission.RECORD_AUDIO" />*`
+需在`AndroidManifest.xml` 中声明麦克风权限 `<uses-permission android:name="android.permission.RECORD_AUDIO" />`
 
 ---
 
